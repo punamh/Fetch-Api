@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    position: relative;
+    
+  }
+  #container > div{
+    border: 1px solid;
+    padding: 15px;
+    background-color:grey;
+    color: white;
+  }
+  
